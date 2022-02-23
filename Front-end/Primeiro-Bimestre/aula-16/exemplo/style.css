@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+body {
+    padding: 32px;
+}
+
+.main-menu li {
+    width: fit-content;
+    background-color: red;
+    color: white;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+
+.main-menu li:nth-child(even) {
+    background-color: blue;
+}
+
+label {
+    font-size: 18px;
+}
+
+.person-input:hover {
+    margin-left: 0px;
+}
+
+.person-input:focus {
+    background-color: rgb(151, 151, 151);
+}
+
+.person-input {
+    border: none;
+    background-color: rgb(196, 196, 196);
+    padding: 6px 12px;
+    margin-left: 12px;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+.main-button {
+    color: cornsilk;
+    border: none;
+    padding: 6px 12px;
+    background-color: #4bbe34;
+    border-radius: 12px;
+    transition: .2s;
+}
+
+.main-button:hover {
+    color: black;
+    background-color: #1c690c;
+    border-radius: 20px;
+    padding: 18px 28px;
+}
+
+.person-checkbox {
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+}
+
+.person-checkbox:checked {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+margin-top: 12px;
+}
+
+.rocket-title::before {
+content: '🚀 ';
+}
+
+.rocket-title::after {
+    content: ' 👀';
+}
+
+.paragrafo::first-line {
+    background-color: yellow;
+}
+
+.paragrafo::first-letter {
+    font-size: 32px;
+}

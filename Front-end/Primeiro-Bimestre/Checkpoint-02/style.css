@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 11, 34);
+    display: grid;
+    grid-template-columns: 200px 100%;
+    grid-template-areas: 
+    'header header'
+    'aside main';
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    background-color: thistle;
+    grid-area: aside;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-image: url('https://jornalviladoprincipe.com.br/images/noticias/490/2.jpg');
+    grid-area: main;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+h2 {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.466);
+    display: inline-block;
+
+}
+
+div {
+    padding-top: 16px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+.nome {
+    padding: 3px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: .4s;
+}
+.nome:hover {
+    padding: 7px;
+}
+.nome:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255);   
+}
+
+
+.email {
+    padding: 3px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: .4s;
+}
+.email:hover {
+    padding: 7px;
+}
+.email:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255);   
+}
+
+
+.telefone {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s;
+}
+.telefone:hover {
+    padding: 7px;
+}
+.telefone:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+.nascimento {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s;   
+}
+.nascimento:hover {
+    padding: 7px;
+}
+.nascimento:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+.radio {
+ margin: 10px;
+ width: 10px;
+ height: 10px;
+ transition: .4s;
+}
+.radio:checked {
+    width: 15px;
+    height: 15px;
+}
+
+.destino {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s; 
+}
+.destino:hover {
+    padding: 7px;
+}
+.destino:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+.check {
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+}
+.check:checked {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    margin-top: 60px;
+    width: 150px;
+    padding: 3px;
+    transition: .4s;
+    border-radius: 12px ;
+}
+
+.reset {
+    background-color: rgb(204, 77, 77);
+    color: white;
+}
+.reset:hover {
+    background-color: rgb(165, 4, 4);
+}
+.submit {
+    background-color: rgb(66, 175, 57);
+    color: white;
+}
+.submit:hover {
+    background-color: rgb(15, 131, 5);
+}
+

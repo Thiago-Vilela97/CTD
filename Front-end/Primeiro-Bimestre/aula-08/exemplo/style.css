@@ -1,0 +1,62 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 2000px;
+}
+
+header {
+
+    width: 100%;
+    background-color: rgb(190, 174, 216);
+    padding: 12px 32px;
+    position: fixed ;
+    top: 32px;
+    z-index: 103;
+    
+
+
+}
+
+.square {
+
+    width: 400px;
+    height: 400px;
+    margin-bottom: 12px;
+    }
+
+.first-square {
+    background-color: blueviolet;
+    position: absolute;
+    right: 0;
+    top: 110px;
+    z-index: 101;
+
+      
+}    
+
+.second-square {
+    background-color: brown;
+    z-index: 102;
+     position: relative; 
+     right: 50px; 
+
+    /* position: absolute;
+    bottom: 200px;
+    right: 0; */
+
+    /* position: relative;
+    top: 45px;
+    left: 400px */
+
+}    
+
+.third-square {
+    background-color: green;
+  
+}    

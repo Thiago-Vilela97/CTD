@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* EXEMPLO PARA CENTRALIZAR COM CALCULO (POSITION ABSOLUTE)
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(32, 178, 51);
+    position: absolute;
+    left: calc(50% - 100px); /* feito para centralizar o elemento horizontalmente 
+    top: calc(50% - 100px); /* feito para centralizar o elemento verticalmente 
+} */
+
+html {
+    font-size: 30px;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(255, 99, 71);
+    position: sticky;
+    top: 0;
+    /* position: fixed;
+    width: 100%; */
+
+}
+
+main {
+
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+.intro {
+
+   
+    height: 100vh;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.outro {
+
+    width: 50%;
+    height: 100vh;
+    background-color: lightpink;
+
+}
+
+@media (max-width: 768px) {
+    
+    html {
+        font-size: 16px;
+    }
+
+
+}

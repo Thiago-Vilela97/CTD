@@ -1,0 +1,49 @@
+div {
+
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    padding: 24px 12px 6px 32px;
+    /* padding-right: 24px;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 32px; */
+    /* border: 10px blue solid; */
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+p {
+    background-color: red;
+    margin: 24px 12px 6px 32px;
+    /* margin-right: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 32px; */
+} 
+
+h1 {
+    margin: 0;
+}
+
+button {
+
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 35px auto;
+    display: block;
+
+}
+/* 
+    * {  "Caso queira resetar os valores"
+
+        padding: 0;
+        box-sizing: 0;
+        margin: 0;
+
+    } */

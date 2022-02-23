@@ -1,0 +1,176 @@
+* {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {height: 100%;}
+
+.main-body{
+    background-image: url('https://www.hojeemdia.com.br/polopoly_fs/1.372623!/image/image.jpg_gen/derivatives/landscape_653/image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.age-group{width: 100%;}
+
+.age-group, h1{
+    color: white;
+    font-weight: normal;
+}
+
+.age-group, ul{ list-style-type: none;}
+
+.center-form{
+    margin-top: 80px;
+    background-color: rgba(14, 27, 72, 0.5);
+    text-align: center;
+    padding: 30px;
+}
+
+.center-form, label {color: white}
+
+.main-body h1{
+    font-weight: normal;
+    text-align: center;
+    padding: 15px;
+    display: block;
+}
+
+.age-group{
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.age-group, h2{ font-size: 20px;}
+
+.my-check{padding-top: 16px;}
+
+.my-check, h2 {color: white;}
+
+.nome {
+    padding: 3px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.nome:hover {padding: 7px;}
+
+.nome:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255);   
+}
+
+.email {
+    padding: 3px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.email:hover { padding: 7px;}
+
+.email:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255);   
+}
+
+.telefone {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s;
+}
+
+.telefone:hover { padding: 7px;}
+
+.telefone:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.nascimento {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s;   
+}
+
+.nascimento:hover { padding: 7px;}
+
+.nascimento:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.radio {
+ margin: 10px;
+ width: 10px;
+ height: 10px;
+ transition: .4s;
+}
+
+.radio:checked {
+    width: 15px;
+    height: 15px;
+}
+
+.my-destiny {
+    padding: 3px;
+    border-radius: 15px;
+    transition: .4s; 
+}
+
+.my-destiny, h1{
+    font-weight: normal;
+    color: white;
+}
+
+.destino:hover {padding: 7px;}
+
+.destino:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+}
+
+.check:checked {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    margin-top: 60px;
+    width: 150px;
+    padding: 3px;
+    transition: .4s;
+    border-radius: 12px ;
+}
+
+.reset {
+    background-color: rgb(204, 77, 77);
+    color: white;
+}
+
+.reset:hover {background-color: rgb(165, 4, 4);}
+
+.submit {
+    background-color: rgb(66, 175, 57);
+    color: white;
+}
+
+.submit:hover {background-color: rgb(15, 131, 5);}
+

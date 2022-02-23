@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <main>
+
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+   
+                <label for="username">Nome de Usuario:</label>
+                <input type="text" name="username" id="username" placeholder="Digite aqui">
+ 
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email@email.com">
+
+                <label for="passwordUser">Senha:</label>
+                <input type="password" name="passwordUser" id="passwordUser" placeholder="min 8 caracteres">
+
+                <label for="observations">Observações:</label>
+                <textarea name="observations" id="observations" cols="20" rows="3"></textarea>
+
+                <label for="state">Estado:</label>
+                <select name="state" id="state">
+                    <option disabled selected value=""></option>
+                    <option value="1">Minas Gerais</option>
+                    <option value="2">São Paulo</option>
+                    <option value="3">Rio de Janeiro</option>
+                </select>
+
+                <button type="reset" class="reset">Limpar formulário</button>
+                <button type="submit" class="send">Enviar formulário</button>
+
+        </form>
+
+    </main>
+
+
+</body>
+</html>

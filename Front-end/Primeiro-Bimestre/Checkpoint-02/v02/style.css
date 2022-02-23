@@ -1,0 +1,265 @@
+* {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@keyframes pulso{
+    0%{
+        transform: scale(0.95);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(0.95);;
+    }
+}
+
+
+html, body {height: 100%;}
+
+.main-body{
+    background-image: url('https://www.hojeemdia.com.br/polopoly_fs/1.372623!/image/image.jpg_gen/derivatives/landscape_653/image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.age-group{width: 100%;}
+
+.age-group, h1{
+    color: white;
+    font-weight: normal;
+}
+
+.age-group, ul{ list-style-type: none;}
+
+.center-form{
+    margin-top: 60px;
+    background-color: rgba(14, 27, 72, 0.582);
+    text-align: center;
+    padding: 30px;
+}
+
+.center-form, label {color: white}
+
+.main-body h1{
+    font-weight: normal;
+    text-align: center;
+    padding: 15px;
+    display: block;
+}
+  
+
+
+
+.age-group{
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.age-group, h2{ font-size: 20px;}
+
+.my-check{padding-top: 16px;}
+
+.my-check, h2 {color: white;}
+
+.nome {
+    padding: 3px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.nome:hover {padding: 7px;}
+
+.nome:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255);   
+}
+
+.email {
+    padding: 3px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.email:hover { padding: 7px;}
+
+.email:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255);   
+}
+
+.telefone {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s;
+}
+
+.telefone:hover { padding: 7px;}
+
+.telefone:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.nascimento {
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    transition: .4s;   
+}
+
+.nascimento:hover { padding: 7px;}
+
+.nascimento:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.radio {
+ margin: 10px;
+ width: 10px;
+ height: 10px;
+ transition: .4s;
+}
+
+.radio:checked {
+    width: 15px;
+    height: 15px;
+}
+
+.my-destiny {
+    padding: 3px;
+    border-radius: 15px;
+    transition: .4s; 
+}
+
+.my-destiny, h1{
+    font-weight: normal;
+    color: white;
+}
+
+.destino:hover {padding: 7px;}
+
+.destino:focus {
+    padding: 9px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+}
+
+.check:checked {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    margin-top: 40px;
+    width: 150px;
+    height: 32px;
+    padding: 3px;
+    transition: .4s;
+    border-radius: 12px ;
+}
+
+.reset {
+    background-color: rgb(204, 77, 77);
+    color: white;
+}
+
+@keyframes zigzag{
+    0%{
+        
+        transform: translate(1px);
+    }
+    50%{
+        transform: translate(-1px);
+    }
+    100%{
+        transform: translate(1px);
+    }
+}
+
+.reset:hover {
+    background-color: rgb(165, 4, 4);
+    animation-name: zigzag;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+
+.submit {
+    background-color: rgb(66, 175, 57);
+    color: white;
+
+}
+
+.submit:hover {
+    background-color: rgb(15, 131, 5);
+    
+    animation-name: pulso;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+hr{
+    margin: 10px
+}
+
+@keyframes cores{
+    0%{
+        color:rgb(255, 0, 0);
+    }
+    10%{
+        color: rgb(255, 153, 0);
+    }
+    20%{
+        color: yellow;
+    }
+    30%{
+        color: rgb(0, 255, 0);
+    }
+    40%{
+        color: rgb(0, 128, 96);
+    }
+    50%{
+        color: rgb(0, 225, 255);
+    }
+    60%{
+        color: rgb(0, 4, 248);
+    }
+    70%{
+        color: rgb(111, 0, 255);
+    }
+    80%{
+        color: rgb(234, 0, 255);
+    }
+    90%{
+        color: rgb(255, 0, 140);
+    }
+    100%{
+        color:rgb(255, 0, 0);
+    }
+
+}
+.titulo{
+    animation-name: cores;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}

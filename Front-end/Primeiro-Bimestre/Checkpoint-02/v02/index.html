@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Importe da font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 02</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main class="main-body">
+        <h1 class="titulo">Cadastro - Sou fã de BH!</h1>
+        <form class="my-form" action="">
+
+            <div class="center-form">
+                <label for="Nome">Nome:</label>
+                <input class="nome" type="text" id="Nome" maxlength="100" placeholder="Nome completo">
+
+                <label for="Email">Email:</label>
+                <input class="email" type="text" id="Email" placeholder="email@email.com">
+
+                <label for="telefone">Telefone:</label>
+                <input class="telefone" pattern="[0-9]{2}[0-9]{5}-[0-9]{4}" type="tel" id="number" placeholder="Apenas número">
+
+                <label for="nascimento">Data de Nascimento:</label>
+                <input class="nascimento" type="date" id="nascimento">
+
+                <hr>
+
+                <div class="age-group">
+                    <h2>Faixa etária:</h2>
+                    <ul class="tete">
+                        <li>
+                            <input class="radio" type="radio" name="idade" id="-18" value="1">
+                            <label for="-18"> - 18 anos</label>
+                        </li>
+                        <li>
+                            <input class="radio" type="radio" name="idade" id="+18" value="2">
+                            <label for="+18"> + 18 anos</label>
+                        </li>
+                    </ul>
+                </div><!-- age-group-->
+
+                <div class="my-destiny">
+                    <label for="destino">Selecione seu destino favorito em MG:</label>
+                    <select name="destino">
+                        <option value="">Selecione</option>
+                        <optgroup label="Em BH">
+                            <option value="1">Opção 1</option>
+                            <option value="1">Opção 2</option>
+                            <option value="1">Opção 3</option>
+                        <optgroup label="Região Metropolina">
+                            <option value="1">Opção 1</option>
+                            <option value="1">Opção 2</option>
+                            <option value="1">Opção 3</option>
+                        </optgroup>
+                    </select>
+                </div><!-- my-destiny-->
+
+                <div class="my-check">
+                    <h2>Você é:</h2>
+
+                    <input class="check" type="checkbox" name="interesse" id="turista" value="1">
+                    <label for="turista">Turista</label>
+
+
+                    <input class="check" type="checkbox" name="interesse" id="Residente" value="2">
+                    <label for="Residente">Residente</label>
+
+
+                    <input class="check" type="checkbox" name="interesse" id="Estudante" value="3">
+                    <label for="Estudante">Estudante</label>
+                </div><!-- my-check -->
+
+                <button class="reset" type="reset">Limpar formulário</button>
+                <button class="submit" type="submit">Enviar formulário</button>
+            </div><!-- center-form -->
+        </form><!-- my-forme -->
+    </main><!-- Principal -->
+
+</body>
+
+</html>

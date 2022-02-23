@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 02</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+
+    <h1>Cadastro - Sou fã de BH!</h1>
+
+    </header>
+
+    <aside>
+
+        <a href="http/">Inicio</a>
+        <a href="http/">Anterio</a>
+        <a href="http/">Fotos</a>
+        <a href="http/">Contato</a>
+
+    </aside>
+
+
+    <main>
+
+    
+  
+    
+
+        <div>
+            <label for="Nome">Nome:</label>
+            <input  class="nome" type="text" id="Nome" maxlength="100" placeholder="Nome completo">
+        </div>
+
+        <div >
+            <label for="Email">Email:</label>
+            <input class="email" type="text" id="Email" placeholder="email@email.com" >
+        </div>
+
+        <div>
+            <label for="number">Telefone:</label>
+            <input class="telefone" type="number" id="number" placeholder="Apenas número">
+        </div>
+
+        <div>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input class="nascimento" type="date" id="nascimento" >
+        </div>
+
+        <div>
+            <ul > 
+                <h2>Faixa etária:</h2>
+                <li>
+                    <input class="radio" type="radio" name="idade" id="-18" value="1">
+                    <label for="-18" > - 18 anos</label>
+                </li>
+                <li>
+                    <input class="radio" type="radio" name="idade" id="+18" value="2">
+                    <label for="+18" > + 18 anos</label>
+                </li>
+            </ul>
+        </div>   
+
+        <div>
+            <label for="destino">Selecione seu destino favorito em MG:</label>
+            <select class="destino" name="destino" > 
+                <option value="">Selecione</option>
+                <optgroup label="Em BH">
+                    <option value="1">Opção 1</option>
+                    <option value="1">Opção 2</option>
+                    <option value="1">Opção 3</option>
+                    <optgroup label="Região Metropolina">
+                        <option value="1">Opção 1</option>
+                        <option value="1">Opção 2</option>
+                        <option value="1">Opção 3</option>
+                </optgroup>
+            </select>  
+        </div>
+
+        <div>
+            <h2>Você é:</h2>
+
+            <input class="check" type="checkbox" name="interesse" id="turista" value="1">
+            <label for="turista">Turista</label>
+
+
+            <input class="check"  type="checkbox" name="interesse" id="Residente" value="2">
+            <label for="Residente">Residente</label>
+
+
+            <input class="check"  type="checkbox" name="interesse" id="Estudante" value="3">
+            <label for="Estudante">Estudante</label>
+        </div>
+
+        <button class="reset" type="reset">Limpar formulário</button>
+        <button class="submit" type="submit">Enviar formulário</button>
+
+        
+
+
+    </main>
+
+
+
+
+
+    
+</body>
+</html>

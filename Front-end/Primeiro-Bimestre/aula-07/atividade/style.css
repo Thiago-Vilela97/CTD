@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.imagem {
+
+    height: 720px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('https://www.teahub.io/photos/full/9-97669_minions-papel-de-parede-para-notebook.jpg');
+    padding: 50%;
+}
+
+h1 {
+    color: rgb(202, 233, 27);
+}
+h2 {
+    color: rgb(255, 0, 0);
+}
+button {
+
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(31, 164, 197);
+}

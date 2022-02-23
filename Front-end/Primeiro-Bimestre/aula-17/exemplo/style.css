@@ -1,0 +1,54 @@
+main { 
+    padding: 32px;
+}
+
+.main-button {
+    color: white;
+    background-color: blue;
+    border: 0;
+    padding: 24px;
+    font-size: 22px;
+    border-radius: 12px;
+    transition-duration: .4s ;
+    transition-timing-function: ease-in-out;
+    /* transition: 1s ease-in-out;  Também pode ser feito assim, de forma resumida*/
+    display: block;
+    margin: 0 auto;
+}
+
+.main-button:hover {
+     background-color: rgb(151, 151, 252);
+     /* transform: scale(1.15) skew(-9deg) rotate(10deg);   OUTRAS FUNÇOES DE TRANSFORM*/
+     transform: translate(-40PX, 90px);
+}
+
+p {
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+@keyframes floating {
+
+
+     0% { 
+        transform: translate(0, -30px);
+        opacity: .5;
+    }
+    50%  { 
+        transform: translate(0, 30px);
+        opacity: 100%;
+    }
+    100%  { 
+        transform: translate(0, -30px);
+        opacity: .5;
+    } 
+}
+
+.ghost {
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

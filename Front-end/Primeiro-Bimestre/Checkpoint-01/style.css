@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+}
+
+.imagem {
+    width: 100%;
+    background-image: url('./images/pampulha-BH.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+.titulo {
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(184, 211, 221);
+    color: #1210a0;
+    padding: 15px;
+    
+    }
+
+    h2 {
+        font-family: 'Mochiy Pop P One', sans-serif;
+        padding: 10px 12px 20px;  
+    }
+   
+    iframe {
+        
+        width: 1280px;
+        height: 720px; 
+        margin: 12px auto;
+        display: block;       
+    }
+li {
+    text-align: justify;
+    font-size: 22px;
+}
+.insta {
+    width: 50px;
+    height: 50px;
+    border-radius: 21px;
+}
+.twitter {
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+}

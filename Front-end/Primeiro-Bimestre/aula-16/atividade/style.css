@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+.titulo::first-letter {
+    font-size: 32px;
+    color: blue;
+}
+
+.input-name {
+    border: none;
+    padding: 10px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 12px;
+    transition: .2s;
+}
+
+.input-name:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.input-name:focus {
+    padding: 20px;
+    border-radius: 24px;   
+}
+
+p {
+    margin-top: 24px; 
+}
+.texto::first-line {
+    background-color: yellow;
+}
+.texto::first-letter {
+    font-size: 37px;
+    color: red;
+}
+
+.person-checkbox {
+    margin-top: 19px;
+    margin-bottom: 21px;
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+}
+.person-checkbox:checked {
+    width: 22px;
+    height: 22px;
+}
+
+.lista {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+li {
+    color: white;
+    background-color: red;
+    padding: 12px;
+    width: fit-content;
+    border-radius: 13px;
+    display: inline;
+}
+li:nth-child(odd) {
+    background-color: turquoise;
+    color: black;
+}
+
+.opcion-radio1, .opcion-radio2, .opcion-radio3, .opcion-radio4 {
+    margin-top: 12px;
+    margin-bottom: 25px;
+    margin-left: 6px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+
+.opcion-radio4:disabled {
+    width: 12px;
+    height: 12px;
+}
+
+.opcion-radio1:enabled {
+    width: 17px;
+    height: 17px;
+}
+.opcion-radio2:enabled {
+    width: 17px;
+    height: 17px;
+}
+.opcion-radio3:enabled {
+    width: 17px;
+    height: 17px;
+}
+
+a {
+    margin-top: 32px;
+    transition: .3s;
+}
+a:link {
+    color: rgb(34, 155, 98);
+}
+a:visited {
+    color: rgb(43, 46, 226);
+    }
+a:hover {
+    color: rgb(226, 168, 43);
+    font-size: 24px;
+    }
+a:active {
+    color: rgb(34, 70, 30);
+}
+
+

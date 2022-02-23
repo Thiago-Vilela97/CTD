@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.intro{
+
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.livrosFundo{
+    background-image: url("./images/livros.jpg");
+    height: 100vh;
+    width: 100%;
+    opacity: 0.3;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    color: white;
+}
+
+.botao-explorar{
+    display: flex;
+    justify-content: center;
+}
+
+.main-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+@media (max-width: 800px){
+    .banner{
+        height: 80vh;
+        top: -150px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 350px){
+    .banner{
+        height: 75vh;
+    }
+
+}
+
+/* Parte Thiago */
+
+footer {
+    width: 100%;
+
+}
+
+
+.autor-1{
+    text-align: left;
+}
+
+.lista-1 {
+    display: flex;
+    gap: 12px;
+}
+
+.linkedin {
+    width: 24px;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.git {
+    width: 24px;
+    border-radius: 6px;
+    transition: .4s;
+}
+.git:hover, .linkedin:hover {
+    width: 27px;
+    padding: 0;
+}
+
+footer p {
+    text-align: left;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.autor-2{
+    text-align: center;
+}
+
+.lista-2 {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.referencia-2 {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+
+.autor-3{
+    text-align: right;
+}
+
+.lista-3 {
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+}
+
+.referencia-3 {
+    text-align: right;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+

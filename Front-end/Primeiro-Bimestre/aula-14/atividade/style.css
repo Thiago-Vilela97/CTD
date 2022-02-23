@@ -1,0 +1,71 @@
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(215, 225, 245);
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Titulo {
+text-align: center;
+background-color: rgb(223, 180, 217);
+margin: 0px 0px 17px 0px;
+}
+
+.selecao {
+    font-size: 20px;
+}
+
+.imagem {
+    width: 88px;
+    height: 100px;
+    display: block;
+    margin: 7px;
+}
+
+fieldset {
+ margin: 2px;
+ width: 100px;
+ height: 120px;
+ display: inline-block;
+}
+
+.fieldset-extras {
+    margin: 2px;
+    width: 90px;
+    height: 120px;
+    display: inline-block;
+
+}
+.check {
+    margin: 7px;
+    transition: .2s;
+}
+button {
+    margin-top: 12px;
+    width: 150px;
+    height: 24px;
+    border-radius: 12px;
+    transition: .4s;
+}
+.send {
+    background-color: rgb(79, 128, 79);
+    color: white;
+}
+.reset {
+    background-color: rgb(233, 75, 75);
+    color: white;
+}
+.send:hover {
+    background-color: rgb(8, 121, 8);  
+}
+.reset:hover {
+    background-color: rgb(226, 10, 10);
+}
+

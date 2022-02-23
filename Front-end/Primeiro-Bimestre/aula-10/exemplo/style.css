@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 6px;
+}
+
+label, input, textarea, button{
+
+    display: block;
+}
+
+input {
+    margin: 0px 0px 12px;
+}
+
+label {
+    margin-top: 24px;
+}
+
+button {
+    margin-top: 12px;
+   
+}
+
+.send {
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+}
+
+.reset {
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+}

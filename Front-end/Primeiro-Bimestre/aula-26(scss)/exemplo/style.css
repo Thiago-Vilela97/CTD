@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-header {
+  background-color: red;
+  padding: 24px;
+}
+
+.main-header img {
+  width: 200px;
+}
+
+.main-header ul {
+  background-color: aliceblue;
+}
+
+.main-header ul li {
+  padding: 12px;
+}
+
+.main-header ul li a {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
