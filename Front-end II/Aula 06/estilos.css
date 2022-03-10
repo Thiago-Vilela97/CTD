@@ -1,0 +1,26 @@
+* { font-family: sans-serif; }
+
+.cartao {
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.coluna-1 { width: 30%; }
+
+.coluna-2 {
+    padding: 25px;
+    width: 70%;
+}
+
+.titulo-feio {
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+    font-family: serif;
+}

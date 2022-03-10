@@ -1,0 +1,13 @@
+# -*- mode: ruby ​​-*-
+# vi: set ft=ruby:
+# Toda a configuração do Vagrant é feita abaixo. O "2" em Vagrant.configure
+# configura a versão de configuração (suportamos estilos mais antigos para
+# retrocompatibilidade). Por favor, não altere a menos que você saiba o que
+# está fazendo.
+Vagrant.configure("2") do |config|
+  config.vm.define "server" do |server|
+  config.vm.box = "debian/buster64"
+  server.vm.hostname = "server"
+  server.vm.network "public_network"
+  end  
+end
