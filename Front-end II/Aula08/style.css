@@ -1,0 +1,14 @@
+
+.card{
+    margin: 22px;
+    border-style:groove;
+    width: 350px;
+    height: auto;
+}
+
+.item {
+    margin: 10px;
+}
+button {
+    margin: 10px;
+}
