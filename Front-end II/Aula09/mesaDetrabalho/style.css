@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+h1, h2 {
+    color:white;
+}
+
+div {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border:solid;
+    
+    border-color: aliceblue;
+}
+
+button {
+    width: 108px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgb(0, 204, 255);
+}
