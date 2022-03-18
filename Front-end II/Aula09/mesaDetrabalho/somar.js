@@ -2,8 +2,8 @@
 
 function executarFuncaoSomar() {
     
-    let a = prompt("entre com o valor A");
-    let b = prompt("entre com o valor B");
+    let a = parseInt(prompt("entre com o valor A"));
+    let b = parseInt(prompt("entre com o valor B"));
 
 function somar (valorA, valorB) {
     return valorA + valorB;
