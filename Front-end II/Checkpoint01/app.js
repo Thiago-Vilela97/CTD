@@ -1,21 +1,26 @@
-
-function executar() {
-
 let botaoEnviar = document.getElementById('botaoEnviar');
 
 botaoEnviar.addEventListener("click", (evento) => {
     evento.preventDefault();
 
-    var titulo = document.getElementById("pais");
-console.log(titulo);
+    let formUrl = document.getElementById('Url').value;
+    let formPais = document.getElementById('pais').value;
+    let formDescricao = document.getElementById('Descricao').value;
 
-var tituloHtml = document.createElement("h1");
+    let newContent = `
+    <div class="card">
+    <img src="${formUrl}" alt="">
+    <h2>${formPais}</h2>
+    <p>${formDescricao}</p>
+    </div>`
 
-var teste = document.createTextNode(titulo.value);
+    console.log(newContent);
 
-console.log(teste);
+    const newCard = document.querySelector("main");
+
+    console.log(newCard);
+    newCard.innerHTML = newCard.innerHTML + newContent;
+    
+  
+    
 })
-
-
-
-}

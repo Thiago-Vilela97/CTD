@@ -32,20 +32,6 @@ body main {
     margin-top: 10px;
 }
 
-/* body header {
-    background-color: salmon;
-    grid-area: header;
-    height: 32px;
-} */
-
-/* body {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-areas: 
-    'header header'
-    'aside main'
-    'footer footer';
-} */
 
 h1 {
     margin: 10px;
@@ -97,7 +83,7 @@ input {
     text-align: center;
 }
 
-button {
+.botaoEnviar {
     width: 170px;
     height: 30px;
     border-radius: 12px;
