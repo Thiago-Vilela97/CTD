@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+div {
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+}

@@ -7,12 +7,17 @@ botaoEnviar.addEventListener("click", (evento) => {
     let formPais = document.getElementById('pais').value;
     let formDescricao = document.getElementById('Descricao').value;
 
+
     let newContent = `
-    <div class="card">
-    <img src="${formUrl}" alt="">
-    <h2>${formPais}</h2>
-    <p>${formDescricao}</p>
-    </div>`
+    <div class="card" style="width: 18rem;">
+        <img src="${formUrl}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${formPais}</h5>
+          <p class="card-text">${formDescricao}</p>
+         </div>
+      </div>`
+
+    
 
     console.log(newContent);
 

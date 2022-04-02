@@ -15,10 +15,10 @@ body {
 
 body header {
     grid-area: header;
-    height: 80px;
+    height: 100px;
     text-align: center;
-    border: solid;
-    border-color: white;
+    /* border: solid;
+    border-color: white; */
 }
 
 body aside {
@@ -34,9 +34,13 @@ body main {
 
 
 h1 {
-    margin: 10px;
+        margin: 10px;
     padding: 10px;
     color: white;
+}
+
+form h1 {
+    font-size: 22px;
 }
 
 .card h2, p {
@@ -46,6 +50,7 @@ h1 {
 .card {
     width: 150px;
     height: auto;
+    background-color: black;
 }
 .card h1 {
     margin-bottom: lpx;
@@ -54,11 +59,17 @@ h1 {
     justify-content: space-between;
 }
 
-img {
-    width: 150px;
-    height: 120px;
+
+.card-img-top {
+    width: 280px;
+    height: 230px;
+    border-radius: 12px;
     object-fit: cover;
-    object-position:bottom;
+    object-position:center;
+}
+
+h5 {
+    color: #828584;
 }
 
 input {
@@ -83,14 +94,9 @@ input {
     text-align: center;
 }
 
-.botaoEnviar {
-    width: 170px;
-    height: 30px;
-    border-radius: 12px;
+button {
     margin-top: 15px;
     margin-bottom: 35px;
-    color: white;
-    background-color: #5e98f0;
 }
 
 
@@ -100,4 +106,14 @@ main{
     gap: 20px;
     flex-wrap: wrap;
 
+}
+
+@media screen and (max-width:650px) {
+    body {
+        grid-template-areas: 
+        'header header'
+        'aside aside'
+        'main main';
+    }
+    
 }
