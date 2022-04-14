@@ -32,7 +32,7 @@
     </nav>
 
     <div class="user-info">
-      <p>Nome usuário</p>
+      <p id="nomeUsuario"></p>
       <div class="user-image"></div>
       <p id="closeApp">Finalizar sessão</i>
       </p>
@@ -41,9 +41,9 @@
 
 
   <form class="nova-tarefa">
-    <div class="not-done "></div>
-    <input id="novaTarea" type="text" placeholder="Nova tarefa">
-    <button type="submit">
+    <div  class="not-done "></div>
+    <input id="novaTarefa" type="text" placeholder="Nova tarefa">
+    <button id="botaoAddTarefa" type="submit">
       <img src="./assets/plus.png" alt="Adicionar uma nova tarefa">
     </button>
   </form>
@@ -51,7 +51,7 @@
 
   <ul class="tarefas-pendentes">
     <div id="skeleton">
-      <li class="tarefa">
+      <!-- <li class="tarefa">
         <div class="not-done"></div>
         <div class="descricao">
           <p class="nome">Nova tarefa</p>
@@ -70,7 +70,7 @@
         <div class="descricao">
           <p class="nome">Nova tarefa</p>
           <p class="timestamp">Criada em: 15/07/21</p>
-        </div>
+        </div> -->
       </li>
 
     </div>
@@ -80,6 +80,11 @@
   <ul class="tarefas-terminadas">
 
   </ul>
+
+  <script src="./scripts/tarefas/tarefas.js" defer ></script>
+  <script src="./scripts/tarefas/tarefas_concluidas.js" defer ></script>
+  <script src="./scripts/tarefas/tarefas_pendentes.js" defer ></script>
+
 
 </body>
 

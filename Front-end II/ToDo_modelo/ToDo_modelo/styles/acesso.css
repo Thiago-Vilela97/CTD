@@ -33,9 +33,6 @@ form:after {
   background: linear-gradient(var(--primary), var(--secondary));
 }
 
-small {
-  display: flex;
-}
 
 input {
   width: 100%;
@@ -43,6 +40,9 @@ input {
   background-color: var(--app-grey);
   border: 1px solid var(--app-grey);
   border-radius: .2em;
+}
+small {
+  display: flex;
 }
 
 input:focus {
@@ -65,6 +65,10 @@ button {
   margin-top: 2em;
   font-weight: 400;
   font-size: 1em;
+}
+
+button:disabled {
+  background-color: #676767;
 }
 
 .form-header {

@@ -20,7 +20,7 @@ fetch('https://api.thecatapi.com/v1/images/search?category_ids=1$limit=10')
            div.appendChild(img);
            imagens.appendChild(div);
 
-        })
+        });
 
     });
 // fetch('https://api.thecatapi.com/v1/images/search?category_ids=1&limit=10') 

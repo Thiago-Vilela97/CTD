@@ -32,24 +32,27 @@
         <small id="campoNomeValidacao"></small>
       </label>
       <label>
-        Apelido:
+        Sobrenome:
         <input id="inputApelido" type="text">
         <small id="campoApelidoValidacao"></small>
       </label>
       <label>
         Email:
         <input id="inputEmail" type="text">
+        <small id="campoEmailValidacao"></small>
       </label>
       <label>
         Senha:
         <input id="inputSenha" type="password">
+        <small id="campoSenhaValidacao"></small>
       </label>
       <label>
         Repetir senha:
         <input id="inputRepetirSenha" type="password">
+        <small id="campoRepetirSenhaValidacao"></small>
       </label>
 
-      <button id="botaoCriarConta" >Criar conta</button>
+      <button id="botaoCriarConta" disabled>Criar conta</button>
 
     </form>
     <div class="ingressar">
@@ -57,8 +60,10 @@
     </div>
   </div>
 
+  <script src="./scripts/signup/index.js"></script>
+  <script src="./scripts/validacoes/utils.js"></script>
+  
 </body>
-<script src="./scripts/signup/index.js"></script>
-<script src="./scripts/validacoes/utils.js"></script>
+
 
 </html>
