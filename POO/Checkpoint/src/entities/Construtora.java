@@ -26,6 +26,15 @@ public class Construtora {
         funcionarios.add(funcionario);
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Funcionario func : funcionarios) {
+            sb.append(func);
+            sb.append("\n");
+        }
+        return sb.toString();
+    }
 }
 
 
