@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220706 21:46:44.281" rpa="false" schemaversion="3">
+<suite id="s1" name="Thiago" source="C:\Users\thiadolfov\Desktop\CTD\TestesQA\Aula10\thiago.robot">
+<test id="s1-t1" name="Processo de compra na loja Sauce Demo" line="6">
+<kw name="Acessar o site">
+<msg timestamp="20220706 21:46:44.314" level="FAIL">No keyword with name 'Acessar o site' found.</msg>
+<status status="FAIL" starttime="20220706 21:46:44.314" endtime="20220706 21:46:44.314"/>
+</kw>
+<kw name="Fazer login">
+<status status="NOT RUN" starttime="20220706 21:46:44.317" endtime="20220706 21:46:44.317"/>
+</kw>
+<kw name="Adicionar um produto ao carrinho">
+<status status="NOT RUN" starttime="20220706 21:46:44.319" endtime="20220706 21:46:44.319"/>
+</kw>
+<kw name="Acessar o carrinho">
+<status status="NOT RUN" starttime="20220706 21:46:44.322" endtime="20220706 21:46:44.322"/>
+</kw>
+<kw name="Clicar em 'Checkout'">
+<status status="NOT RUN" starttime="20220706 21:46:44.324" endtime="20220706 21:46:44.324"/>
+</kw>
+<kw name="Preencher informações do usuário">
+<status status="NOT RUN" starttime="20220706 21:46:44.327" endtime="20220706 21:46:44.327"/>
+</kw>
+<status status="FAIL" starttime="20220706 21:46:44.312" endtime="20220706 21:46:44.329">No keyword with name 'Acessar o site' found.</status>
+</test>
+<status status="FAIL" starttime="20220706 21:46:44.283" endtime="20220706 21:46:44.332"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Thiago">Thiago</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

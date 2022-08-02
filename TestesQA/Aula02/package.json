@@ -1,0 +1,15 @@
+{
+  "name": "listas",
+  "version": "1.0.0",
+  "description": "Atividade com teste unitário",
+  "main": "app.js",
+  "scripts": {
+     
+    "test": "jest"
+  },
+  "author": "Thiago Vilela",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+} 

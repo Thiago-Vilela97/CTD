@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220706 22:14:44.735" rpa="false" schemaversion="3">
+<suite id="s1" name="Thiago" source="C:\Users\thiadolfov\Desktop\CTD\TestesQA\Aula10\thiago.robot">
+<test id="s1-t1" name="Processo de compra na loja Sauce Demo" line="7">
+<kw name="Acessar o site" library="thiago">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220706 22:14:45.142" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com'.</msg>
+<status status="PASS" starttime="20220706 22:14:45.142" endtime="20220706 22:14:47.637"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220706 22:14:47.638" endtime="20220706 22:14:47.791"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:45.141" endtime="20220706 22:14:47.791"/>
+</kw>
+<kw name="Fazer login" library="thiago">
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_USUARIO}</arg>
+<arg>${USUARIO}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:47.803" endtime="20220706 22:14:47.923"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:47.926" level="INFO">Typing text 'standard_user' into text field 'css=#user-name'.</msg>
+<status status="PASS" starttime="20220706 22:14:47.924" endtime="20220706 22:14:48.101"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:47.798" endtime="20220706 22:14:48.101"/>
+</kw>
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_SENHA}</arg>
+<arg>${SENHA}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:48.103" endtime="20220706 22:14:48.138"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:48.139" level="INFO">Typing text 'secret_sauce' into text field 'css=#password'.</msg>
+<status status="PASS" starttime="20220706 22:14:48.138" endtime="20220706 22:14:48.235"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.102" endtime="20220706 22:14:48.236"/>
+</kw>
+<kw name="Wait and Click" library="thiago">
+<arg>${BOTAO_LOGIN}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:48.237" endtime="20220706 22:14:48.265"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:48.266" level="INFO">Clicking element 'css=#login-button'.</msg>
+<status status="PASS" starttime="20220706 22:14:48.265" endtime="20220706 22:14:48.407"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.236" endtime="20220706 22:14:48.407"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:47.795" endtime="20220706 22:14:48.407"/>
+</kw>
+<kw name="Adicionar um produto ao carrinho" library="thiago">
+<kw name="Wait and Click" library="thiago">
+<arg>${ADICIONAR_CARRINHO}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:48.409" endtime="20220706 22:14:48.467"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:48.468" level="INFO">Clicking element 'css=#add-to-cart-sauce-labs-backpack'.</msg>
+<status status="PASS" starttime="20220706 22:14:48.467" endtime="20220706 22:14:48.564"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.408" endtime="20220706 22:14:48.565"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.408" endtime="20220706 22:14:48.565"/>
+</kw>
+<kw name="Acessar o carrinho" library="thiago">
+<kw name="Wait and Click" library="thiago">
+<arg>${CARRINHO}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:48.568" endtime="20220706 22:14:48.605"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:48.606" level="INFO">Clicking element 'css=#shopping_cart_container &gt; a'.</msg>
+<status status="PASS" starttime="20220706 22:14:48.605" endtime="20220706 22:14:48.791"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.567" endtime="20220706 22:14:48.791"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.566" endtime="20220706 22:14:48.791"/>
+</kw>
+<kw name="Clicar em 'Checkout'" library="thiago">
+<kw name="Wait and Click" library="thiago">
+<arg>${BOTAO_CHECKOUT}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:48.794" endtime="20220706 22:14:48.854"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:48.855" level="INFO">Clicking element 'css=#checkout'.</msg>
+<status status="PASS" starttime="20220706 22:14:48.854" endtime="20220706 22:14:48.904"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.793" endtime="20220706 22:14:48.904"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.792" endtime="20220706 22:14:48.904"/>
+</kw>
+<kw name="Preencher informações do usuário" library="thiago">
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_NOME}</arg>
+<arg>${NOME}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:48.906" endtime="20220706 22:14:48.930"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:48.930" level="INFO">Typing text 'Tiago' into text field 'css=#first-name'.</msg>
+<status status="PASS" starttime="20220706 22:14:48.930" endtime="20220706 22:14:49.040"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.906" endtime="20220706 22:14:49.040"/>
+</kw>
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_SOBRENOME}</arg>
+<arg>${SOBRENOME}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:49.041" endtime="20220706 22:14:49.066"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:49.067" level="INFO">Typing text 'Gomes' into text field 'css=#last-name'.</msg>
+<status status="PASS" starttime="20220706 22:14:49.066" endtime="20220706 22:14:49.205"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.040" endtime="20220706 22:14:49.206"/>
+</kw>
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_CEP}</arg>
+<arg>${CEP}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:49.207" endtime="20220706 22:14:49.241"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:49.242" level="INFO">Typing text '123456' into text field 'css=#postal-code'.</msg>
+<status status="PASS" starttime="20220706 22:14:49.241" endtime="20220706 22:14:49.368"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.206" endtime="20220706 22:14:49.369"/>
+</kw>
+<kw name="Wait and Click" library="thiago">
+<arg>${BOTAO_CONTINUE}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:49.370" endtime="20220706 22:14:49.403"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:49.404" level="INFO">Clicking element 'css=#continue'.</msg>
+<status status="PASS" starttime="20220706 22:14:49.403" endtime="20220706 22:14:49.477"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.369" endtime="20220706 22:14:49.477"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:48.905" endtime="20220706 22:14:49.477"/>
+</kw>
+<kw name="Clicar em 'Finish'" library="thiago">
+<kw name="Wait and Click" library="thiago">
+<arg>${BOTAO_FINISH}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:49.479" endtime="20220706 22:14:49.508"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:49.508" level="INFO">Clicking element 'css=#finish'.</msg>
+<status status="PASS" starttime="20220706 22:14:49.508" endtime="20220706 22:14:49.571"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.478" endtime="20220706 22:14:49.572"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>${MENSAGEM_AGRADECIMENTO}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20220706 22:14:49.597" level="INFO">Current page contains text 'THANK YOU FOR YOUR ORDER'.</msg>
+<status status="PASS" starttime="20220706 22:14:49.572" endtime="20220706 22:14:49.597"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.478" endtime="20220706 22:14:49.597"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:45.140" endtime="20220706 22:14:49.598"/>
+</test>
+<test id="s1-t2" name="Processo de compra na loja Sauce Demo com usuário incorreto" line="16">
+<kw name="Acessar o site" library="thiago">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220706 22:14:49.607" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com'.</msg>
+<status status="PASS" starttime="20220706 22:14:49.604" endtime="20220706 22:14:51.922"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220706 22:14:51.923" endtime="20220706 22:14:52.268"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.603" endtime="20220706 22:14:52.268"/>
+</kw>
+<kw name="Fazer login com usuario incorreto" library="thiago">
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_USUARIO}</arg>
+<arg>${USUARIO_INCORRETO}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:52.288" endtime="20220706 22:14:52.430"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:52.432" level="INFO">Typing text 'TESTEXXX' into text field 'css=#user-name'.</msg>
+<status status="PASS" starttime="20220706 22:14:52.432" endtime="20220706 22:14:52.586"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:52.286" endtime="20220706 22:14:52.587"/>
+</kw>
+<kw name="Wait and Input Text" library="thiago">
+<arg>${CAMPO_SENHA}</arg>
+<arg>${SENHA_INCORRETA}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:52.588" endtime="20220706 22:14:52.617"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO}</arg>
+<arg>${TEXTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:52.618" level="INFO">Typing text 'senhaErrada' into text field 'css=#password'.</msg>
+<status status="PASS" starttime="20220706 22:14:52.618" endtime="20220706 22:14:52.784"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:52.587" endtime="20220706 22:14:52.784"/>
+</kw>
+<kw name="Wait and Click" library="thiago">
+<arg>${BOTAO_LOGIN}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220706 22:14:52.785" endtime="20220706 22:14:52.827"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220706 22:14:52.827" level="INFO">Clicking element 'css=#login-button'.</msg>
+<status status="PASS" starttime="20220706 22:14:52.827" endtime="20220706 22:14:52.930"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:52.785" endtime="20220706 22:14:52.931"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>${MENSAGEM_ERRO_LOGIN}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20220706 22:14:52.949" level="INFO">Current page contains text 'Username and password do not match'.</msg>
+<status status="PASS" starttime="20220706 22:14:52.931" endtime="20220706 22:14:52.949"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:52.284" endtime="20220706 22:14:52.949"/>
+</kw>
+<status status="PASS" starttime="20220706 22:14:49.602" endtime="20220706 22:14:52.951"/>
+</test>
+<status status="PASS" starttime="20220706 22:14:44.741" endtime="20220706 22:14:52.953"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Thiago">Thiago</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
