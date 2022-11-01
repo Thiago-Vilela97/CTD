@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AppJpaHibernateApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(AppJpaHibernateApplication.class, args);
 	}
 
