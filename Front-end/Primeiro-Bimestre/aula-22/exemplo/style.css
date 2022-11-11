@@ -29,7 +29,7 @@ aside {
 }
 
 main {
-    background-color: rgb(221, 161, 139);
+    background-color: #dda18b;
     grid-area: main;
     padding-top: 40px;
 }
@@ -75,6 +75,6 @@ body {
 }
 
 header {
-    background-color: chartreuse;
+    background-color: #7fff00;
 }
 }

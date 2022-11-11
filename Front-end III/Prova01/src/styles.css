@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color:#1E1E1E;
+}
+
+label, h1, h3, p, h2 {
+    color:#FFFFFF
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+input {
+    margin-left: 10px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.confirma {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background: #36CE7C;
+    border-radius: 12px;
+}
+p {
+    color: red;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 290px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.menu {
+    width: 1200px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    background: #221515;
+    border: 1px solid #FF7070;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.button-confirma {
+    display: block;
+    text-align: right;    
+    padding-top: 60px;
+}
+
+h2 {
+    padding: 20px 0px 20px 10px;
+}
