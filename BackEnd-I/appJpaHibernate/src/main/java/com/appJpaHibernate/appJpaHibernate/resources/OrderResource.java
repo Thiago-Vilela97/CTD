@@ -14,7 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/order")
 public class OrderResource {
-
     @Autowired
     private OrderService service;
     @GetMapping

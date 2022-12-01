@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container-item {
+  width: 240px;
+  border: 1px solid #cacaca;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cacaca;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.container-item img {
+  width: 150px;
+  height: 150px;
+}
+
+
+
