@@ -1,0 +1,13 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888/
+  application:
+    name : especie-service
+datasource:
+  url: jdbc:h2:mem:especies
+h2:
+  console:
+    enable: true
+sql:
+  console:
+    enable: true

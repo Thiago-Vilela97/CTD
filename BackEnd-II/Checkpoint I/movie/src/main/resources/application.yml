@@ -1,0 +1,17 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888/
+  application:
+    name : movie-service
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/bd_movies
+    username: root
+    password: Thiago_SQL2021
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

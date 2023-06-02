@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
 
 public class CustomLoadBalanceConfiguration {
-
     @Bean
     ReactorLoadBalancer<ServiceInstance> ramdomLoadBalancer(Environment environment, LoadBalancerClientFactory loadBalancerClientFactory) {
         String name = environment.getProperty(LoadBalancerClientFactory.PROPERTY_NAME);
